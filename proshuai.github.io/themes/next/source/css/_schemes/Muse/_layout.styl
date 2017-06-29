@@ -1,0 +1,31 @@
+.bg_content {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+#canvas {
+  width: 100%;
+  height: 100%;
+}
+.header-inner, .container .main-inner, .footer-inner {
+  +mobile() { width: auto; }
+}
+
+.main-inner{
+  width: 800px;
+  margin: 0 auto;
+}
+.post{
+  margin-bottom: 80px;
+  padding: 25px;
+  box-shadow: 0 0 14px #cacbcb;
+  background: #fff;
+}
+
+// embed tag
+embed {
+   display: block;
+   margin:  0px auto 25px auto;
+}
